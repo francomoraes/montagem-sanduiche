@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/francomoraes/montagem-sanduiche/static/css/main.aa519429.css",
+    "main.js": "/francomoraes/montagem-sanduiche/static/js/main.e19c7679.js",
+    "static/media/burguer.jpg": "/francomoraes/montagem-sanduiche/static/media/burguer.cd2ea1e97390dd94d48c.jpg",
+    "index.html": "/francomoraes/montagem-sanduiche/index.html",
+    "main.aa519429.css.map": "/francomoraes/montagem-sanduiche/static/css/main.aa519429.css.map",
+    "main.e19c7679.js.map": "/francomoraes/montagem-sanduiche/static/js/main.e19c7679.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa519429.css",
+    "static/js/main.e19c7679.js"
+  ]
+}
