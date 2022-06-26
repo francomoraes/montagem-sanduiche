@@ -5,7 +5,7 @@ Criar uma aplicação que consiste em selecionar os ingredientes disponíveis a 
 
 ### Documentação de projeto:
 
-Link de acesso: [Montagem de Sanduíches](https://francomoraes.github.io/)
+Link de acesso: [Montagem de Sanduíches](https://francomoraes.github.io/montagem-sanduiche/)
 
 Foi criado um componente "telaPadrão" que renderiza botões a partir das informações passadas no arquivo "listaDeInsumos.js". O componente "telaParão" é renderizando dentro do "App", utilizando renderização condicional para passar de uma tela para a outra, conforme seleção dos ingredientes.
   
