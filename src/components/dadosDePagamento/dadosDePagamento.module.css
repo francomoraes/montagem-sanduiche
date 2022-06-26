@@ -1,0 +1,116 @@
+.container {
+  border: 4px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.containerIngredientesSelecionados {
+  border: 1px solid black;
+  width: 49%; 
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.containerDadosDePagamento {
+  width: 44%;
+  height: 560px;
+  min-width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFC107;
+  margin: 0px 40px 40px 40px;
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.label{
+  display: block;
+  width: 90%;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.input{
+  height: 35px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.h3{
+  width: 100%;
+  font-family: 'Lobster', cursive;
+  text-align: left;
+  padding-left: 16px;
+  font-weight: 400;
+  height: 5px;
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.divBotaoPagar {
+  margin: 10px auto;
+  align-self: flex-end;
+  padding: 10px;
+}
+
+.botaoPagar{
+  height: 51px;
+  width: 70%;
+  min-width: 200px;
+  border-radius: 40px;
+  font-family: 'Roboto', sans-serif;
+  align-self: center;
+  color: white;
+  margin: 8px 40px 8px 40px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  margin-top: auto;
+  margin-bottom: 0px;
+  background-color: #C62828;
+}
+
+.botaoPagar:disabled {
+  height: 51px;
+  min-width: 200px;
+  border-radius: 40px;
+  font-family: 'Roboto', sans-serif;
+  align-self: center;
+  color: white;
+  margin: 8px 40px 8px 40px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  margin-top: auto;
+  margin-bottom: 0px;
+  background-color: rgba(198, 40, 40, 0.5);;
+}
+
+.errormessage {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #C62828;
+  font-weight: bolder;
+  margin-top: 0;
+  max-width: 150px;
+  display: inline;
+}
+
+.containerModal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 300px;
+}
